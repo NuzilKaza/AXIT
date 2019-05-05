@@ -1,0 +1,8 @@
+.article__heading {
+    font-size: 30px;
+    letter-spacing: .5em;
+    margin: 2em 0;
+    text-align: center;
+    text-shadow: -1px -1px 4px gray;
+    text-transform: uppercase;
+}

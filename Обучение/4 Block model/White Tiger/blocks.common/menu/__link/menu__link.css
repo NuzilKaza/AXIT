@@ -1,0 +1,12 @@
+.menu__link {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    background: grey;
+}

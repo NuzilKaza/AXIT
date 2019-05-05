@@ -1,0 +1,11 @@
+.article__text {
+    line-height: 1.5;
+    margin: 1% 0;
+    text-align: justify;
+    text-indent: 3em;
+}
+
+::selection {
+    background: grey;
+    color: white;
+}
