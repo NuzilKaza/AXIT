@@ -1,11 +1,20 @@
-.menu__link,
-.menu__link:visited {
+.menu__link {
     color: blue;
+    display: block;
     font: 13px Arial;
     text-decoration: none;
+    width: 100%;
+}
+
+.menu__link:active {
+    color: blue;
 }
 
 .menu__link:hover {
-    color: red;
-    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.menu__link:visited {
+    color: blue;
 }

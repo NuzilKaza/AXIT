@@ -1,4 +1,8 @@
 .menu__item {
-    color: blue;
-    list-style-position: inside;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 7px 5px;
+    width: 200px
 }
