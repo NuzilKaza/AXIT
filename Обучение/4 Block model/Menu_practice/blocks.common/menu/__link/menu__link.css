@@ -1,0 +1,11 @@
+.menu__link,
+.menu__link:visited {
+    color: blue;
+    font: 13px Arial;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: red;
+    text-decoration: underline;
+}
