@@ -1,20 +1,19 @@
-.menu__link {
-    color: blue;
+.menu__link,
+.menu__link:active,
+.menu__link:visited {
+    background: #444;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: white;
     display: block;
-    font: 13px Arial;
+    font: bold 13px Arial;
+    line-height: 30px;
+    padding: 0 5px;
     text-decoration: none;
     width: 100%;
 }
 
-.menu__link:active {
-    color: blue;
-}
-
 .menu__link:hover {
-    color: blue;
-    font-weight: bold;
-}
-
-.menu__link:visited {
-    color: blue;
+    color: black;
+    background: white;
 }
