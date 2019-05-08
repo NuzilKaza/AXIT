@@ -1,7 +1,7 @@
 .article {
     border: 1px solid grey;
     box-sizing: border-box;
+    font: 13px/2 Arial, sans-serif;
     margin-bottom: 20px;
-    padding: 0 20px;
-
+    padding: 20px;
 }

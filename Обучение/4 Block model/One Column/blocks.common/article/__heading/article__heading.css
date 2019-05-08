@@ -1,4 +1,4 @@
 .article__heading {
-    color: blue;
-    margin: 20px 0 10px;
+    font: bold 30px "Times New Roman", serif;
+    margin: 0;
 }
