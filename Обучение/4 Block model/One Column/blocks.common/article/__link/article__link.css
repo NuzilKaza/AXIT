@@ -1,0 +1,10 @@
+.article__link {
+    text-decoration: none;
+}
+
+.article__link:hover,
+.article__link:visited,
+.article__link:active {
+    color: blue;
+    text-decoration: underline;
+}
