@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="blocks.common/menu/__link/menu__link.css">
     <link rel="stylesheet" href="blocks.common/menu/__link/_active/menu__link_active.css">
     <link rel="stylesheet" href="blocks.common/menu/__item/menu__item.css">
+    <link rel="stylesheet" href="blocks.common/calendar/calendar.css">
+    <link rel="stylesheet" href="blocks.common/calendar/__weekend/calendar__weekend.css">
+    <link rel="stylesheet" href="blocks.common/calendar/__today/calendar__today.css">
 </head>
 <body>
     <ul class="menu">
@@ -18,5 +21,70 @@
         <li class="menu__item"><a class="menu__link" href="#">Links</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
     </ul>
+    <table class="calendar">
+        <tr>
+            <th class="calendar__header">Пн</th>
+            <th class="calendar__header">Вт</th>
+            <th class="calendar__header">Ср</th>
+            <th class="calendar__header">Чт</th>
+            <th class="calendar__header">Пт</th>
+            <th class="calendar__weekend calendar__header">Сб</th>
+            <th class="calendar__weekend calendar__header">Вс</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="calendar__weekend">1</td>
+            <td class="calendar__weekend">2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td class="calendar__today">7</td>
+            <td class="calendar__weekend">8</td>
+            <td class="calendar__weekend">9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td class="calendar__weekend">15</td>
+            <td class="calendar__weekend">16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td class="calendar__weekend">22</td>
+            <td class="calendar__weekend">23</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td class="calendar__weekend">29</td>
+            <td class="calendar__weekend">30</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="calendar__weekend"></td>
+            <td class="calendar__weekend"></td>
+        </tr>
+    </table>
 </body>
 </html>

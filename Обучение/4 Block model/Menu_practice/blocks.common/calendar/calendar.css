@@ -1,0 +1,18 @@
+.calendar {
+    color: #555;
+    font: 12px Arial, sans-serif;
+    margin: 20px 0;
+    width: 150px;
+}
+
+.calendar td,
+.calendar th {
+    text-align: center;
+    padding: 3px;
+}
+
+.calendar td:hover,
+.calendar th:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
