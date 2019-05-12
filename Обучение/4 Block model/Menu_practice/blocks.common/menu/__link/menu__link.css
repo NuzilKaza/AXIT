@@ -1,20 +1,15 @@
 .menu__link,
-.menu__link:active,
 .menu__link:visited {
-    background: #0081e7;
-    border: 1px solid #0081e7;
+    border: 1px solid navy;
     box-sizing: border-box;
-    color: white;
-    display: block;
-    font: bold 13px Arial;
-    line-height: 30px;
-    padding: 0 5px;
+    color: blue;
+    display: inline-block;
+    font: 13px Arial;
+    padding: 5px;
     text-decoration: none;
-    width: 100%;
 }
 
-.menu__link:hover {
-    color: blue;
-    background: white url("plane_icon.png") 90% no-repeat;
-    background-size: 20px;
+.menu__link:hover,
+.menu__link:active {
+    color: red;
 }

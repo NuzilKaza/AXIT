@@ -1,6 +1,5 @@
 .menu__item {
     box-sizing: border-box;
+    display: inline;
     list-style: none;
-    margin-bottom: 5px;
-    width: 200px
 }
