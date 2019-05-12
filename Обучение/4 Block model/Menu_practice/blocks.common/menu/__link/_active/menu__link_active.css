@@ -1,5 +1,5 @@
 .menu__link.menu__link_active {
-    color: blue;
-    background: white url("../plane_icon.png") 160px no-repeat;
-    background-size: 20px;
+    background: #444;
+    border: 1px solid grey;
+    color: white;
 }

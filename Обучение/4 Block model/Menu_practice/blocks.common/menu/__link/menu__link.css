@@ -11,5 +11,7 @@
 
 .menu__link:hover,
 .menu__link:active {
-    color: red;
+    background: #444;
+    border: 1px solid grey;
+    color: white;
 }
