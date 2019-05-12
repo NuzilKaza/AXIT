@@ -1,17 +1,15 @@
 .menu__link,
 .menu__link:visited {
-    border: 1px solid navy;
     box-sizing: border-box;
-    color: blue;
+    color: white;
     display: inline-block;
     font: 13px Arial;
-    padding: 5px;
+    padding: 10px 13px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .menu__link:hover,
 .menu__link:active {
-    background: #444;
-    border: 1px solid grey;
-    color: white;
+    background: darkred;
 }
