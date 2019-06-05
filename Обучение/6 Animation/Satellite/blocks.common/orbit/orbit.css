@@ -1,0 +1,19 @@
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.orbit {
+    width: 400px;
+    height: 400px;
+
+    -moz-animation: rotation 8s linear infinite;
+    -o-animation: rotation 8s linear infinite;
+    -webkit-animation: rotation 8s linear infinite;
+    animation: rotation 8s linear infinite;
+}
