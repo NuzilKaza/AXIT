@@ -5,8 +5,12 @@ class CoffeeMachine {
     }
 
     run() {
-        setTimeout(this.__onReady, this.__getBoilTime());
+        this.timerId = setTimeout(this.__onReady, this.__getBoilTime());
     };
+
+    stop() {
+        clearInterval(this.timerId);
+    }
 
     __getBoilTime() {
         const WATER_HEAT_CAPACITY = 4200;
@@ -14,6 +18,6 @@ class CoffeeMachine {
     }
 
     __onReady() {
-        alert( 'Кофе готово!' );
+        alert( 'Кофе готов!' );
     }
 }
