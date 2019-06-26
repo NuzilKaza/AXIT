@@ -1,5 +1,9 @@
-let coffeeMachine = new CoffeeMachine(100000, 400);
-coffeeMachine.addWater(200);
-coffeeMachine.addWater(100);
-coffeeMachine.addWater(400); // Нельзя залить больше, чем 400
+let coffeeMachine = new CoffeeMachine(20000, 500);
+coffeeMachine.waterAmount = 150;
+
+coffeeMachine.setOnReady(() => {
+    let amount = coffeeMachine.waterAmount;
+    alert( 'Готов кофе: ' + amount + 'мл' ); // Кофе готов: 150 мл
+});
+
 coffeeMachine.run();

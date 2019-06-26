@@ -18,6 +18,10 @@ class CoffeeMachine {
         this.waterAmount = this.waterAmount + amount;
     }
 
+    setOnReady(newOnReady) {
+        this.__onReady = newOnReady;
+    }
+
     set waterAmount(amount) {
         if (amount < 0) {
             throw new Error("Значение должно быть положительным");
