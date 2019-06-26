@@ -14,6 +14,18 @@ class CoffeeMachine {
         clearInterval(this.__timerId);
     }
 
+    addWater(amount) {
+        if (amount < 0) {
+            throw new Error("Значение должно быть положительным");
+        }
+
+        if (this.__waterAmount + amount > this.__capacity) {
+            throw new Error("Нельзя залить воды больше, чем " + this.__capacity);
+        }
+
+        this.__waterAmount += amount;
+    }
+
     set waterAmount(amount) {
         if (amount < 0) {
             throw new Error("Значение должно быть положительным");
@@ -41,4 +53,5 @@ class CoffeeMachine {
     __onReady() {
         alert( 'Кофе готов!' );
     }
+
 }
