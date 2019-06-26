@@ -3,11 +3,13 @@ class CoffeeMachine {
         this.__power = power;
         this.__capacity = capacity;
         this.__waterAmount = 0;
-        this._power = power;
     }
 
     run() {
-        this.__timerId = setTimeout(this.__onReady, this.__getBoilTime());
+        this.__timerId = setTimeout(() => {
+            this.__timerId = 0;
+            this.__onReady();
+        }, this.__getBoilTime());
     };
 
     stop() {
@@ -18,7 +20,11 @@ class CoffeeMachine {
         this.waterAmount = this.waterAmount + amount;
     }
 
-    setOnReady(newOnReady) {
+    isRunning() {
+        return !!this.__timerId;
+    }
+
+    set onReady(newOnReady) {
         this.__onReady = newOnReady;
     }
 
@@ -27,7 +33,7 @@ class CoffeeMachine {
             throw new Error("Значение должно быть положительным");
         }
         if (amount > this.__capacity) {
-            throw new Error("Нельзя залить воды больше, чем " + this.__capacity);
+            throw new Error(`Нельзя залить воды больше, чем ${this.__capacity}`);
         }
 
         this.__waterAmount = amount;
@@ -49,5 +55,4 @@ class CoffeeMachine {
     __onReady() {
         alert( 'Кофе готов!' );
     }
-
 }
