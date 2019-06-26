@@ -1,15 +1,19 @@
-class CoffeeMachine {
+class CoffeeMachine extends Machine {
     constructor(power, capacity) {
-        this.__power = power;
+        super(power);
         this.__capacity = capacity;
         this.__waterAmount = 0;
     }
 
     run() {
-        this.__timerId = setTimeout(() => {
-            this.__timerId = 0;
-            this.__onReady();
-        }, this.__getBoilTime());
+        if (this._enabled) {
+            this.__timerId = setTimeout(() => {
+                this.__timerId = 0;
+                this.__onReady();
+            }, this.__getBoilTime());
+        } else {
+            throw new Error('ошибка, кофеварка выключена!');
+        }
     };
 
     stop() {
@@ -43,13 +47,9 @@ class CoffeeMachine {
         return this.__waterAmount;
     };
 
-    get power() {
-        return this.__power;
-    }
-
     __getBoilTime() {
         const WATER_HEAT_CAPACITY = 4200;
-        return this.waterAmount * WATER_HEAT_CAPACITY * 80 / this.__power;
+        return this.waterAmount * WATER_HEAT_CAPACITY * 80 / super.power;
     }
 
     __onReady() {
