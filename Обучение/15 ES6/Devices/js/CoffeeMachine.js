@@ -15,15 +15,7 @@ class CoffeeMachine {
     }
 
     addWater(amount) {
-        if (amount < 0) {
-            throw new Error("Значение должно быть положительным");
-        }
-
-        if (this.__waterAmount + amount > this.__capacity) {
-            throw new Error("Нельзя залить воды больше, чем " + this.__capacity);
-        }
-
-        this.__waterAmount += amount;
+        this.waterAmount = this.waterAmount + amount;
     }
 
     set waterAmount(amount) {
