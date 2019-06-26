@@ -16,6 +16,18 @@ class Fridge extends Machine {
         }
     }
 
+    filterFood(filterFunction) {
+        return this.__food.filter(filterFunction);
+    }
+
+    removeFood(neededItem) {
+        for (let i = 0; i < this.__food.length; i++) {
+            if (this.__food[i] === (neededItem)) {
+                this.__food.splice(i, 1);
+            }
+        }
+    }
+
     get food() {
         return this.__food.slice();
     }
