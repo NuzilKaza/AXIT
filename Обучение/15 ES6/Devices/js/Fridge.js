@@ -28,6 +28,14 @@ class Fridge extends Machine {
         }
     }
 
+    disable() {
+        if (this.__food.length === 0) {
+            super.disable();
+        } else {
+            throw new Error('ошибка, в холодильнике есть еда');
+        }
+    }
+
     get food() {
         return this.__food.slice();
     }
