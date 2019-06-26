@@ -20,6 +20,11 @@ class CoffeeMachine extends Machine {
         clearInterval(this.__timerId);
     }
 
+    disable() {
+        this.stop();
+        super.disable();
+    }
+
     addWater(amount) {
         this.waterAmount = this.waterAmount + amount;
     }
