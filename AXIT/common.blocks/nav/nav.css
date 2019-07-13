@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+    align-items: center;
+    -webkit-align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #000;
+}

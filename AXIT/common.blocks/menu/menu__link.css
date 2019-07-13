@@ -1,0 +1,11 @@
+.menu__link {
+    display: block;
+    height: 70px;
+    text-decoration: none;
+    color: #b0b0b0;
+    font: 14px/70px OpenSans,Arial,sans-serif;
+}
+
+.menu__link:last-child {
+    margin-right: 0;
+}
