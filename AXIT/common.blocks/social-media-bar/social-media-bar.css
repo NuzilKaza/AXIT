@@ -1,0 +1,22 @@
+.social-media-bar {
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    min-width: 1024px;
+    padding: 25px 10%;
+    background: #fff;
+
+    -webkit-box-shadow: 0 0 5px #9a9a9a;
+    -moz-box-shadow: 0 0 5px #9a9a9a;
+    -o-box-shadow: 0 0 5px #9a9a9a;
+    box-shadow: 0 0 5px #9a9a9a;
+    z-index: 10;
+}

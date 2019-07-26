@@ -1,0 +1,15 @@
+.social-media-icon {
+    display: inline-block;
+
+    -webkit-transition:.3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.social-media-icon:hover {
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
