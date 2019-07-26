@@ -1,3 +1,4 @@
 .page-section {
+    min-width: 1024px;
     padding: 100px 10%;
 }

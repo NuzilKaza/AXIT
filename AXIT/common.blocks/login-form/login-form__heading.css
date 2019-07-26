@@ -1,8 +1,10 @@
 .login-form__subheading {
     padding: 20px 0;
     text-align: center;
+
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
+
     background: #f5f5f5;
 }

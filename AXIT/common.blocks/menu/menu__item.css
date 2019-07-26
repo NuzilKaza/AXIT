@@ -2,3 +2,7 @@
     display: inline-block;
     margin-right: 50px;
 }
+
+.menu__item:last-child {
+    margin-right: 0;
+}
