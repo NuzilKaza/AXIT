@@ -4,8 +4,17 @@
     text-decoration: none;
     color: #b0b0b0;
     font: 14px/70px OpenSans,Arial,sans-serif;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .menu__link:last-child {
     margin-right: 0;
+}
+
+.menu__link:hover {
+    color: #ff8b38;
 }
