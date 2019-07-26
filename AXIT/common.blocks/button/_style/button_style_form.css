@@ -1,0 +1,19 @@
+.button_style_form {
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    background: #ff8b38;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.button_style_form:hover {
+    color: #333;
+    font-weight: bold;
+}

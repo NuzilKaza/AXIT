@@ -1,0 +1,6 @@
+.button {
+    box-sizing: border-box;
+    color: #fff;
+    font: 15px OpenSans, Arial, sans-serif;
+    cursor: pointer;
+}
