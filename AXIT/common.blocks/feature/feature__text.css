@@ -1,3 +1,7 @@
 .feature__text {
     margin-bottom: 25px;
 }
+
+.feature__text:last-child {
+    margin-bottom: 0;
+}
