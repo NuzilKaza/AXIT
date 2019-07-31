@@ -19,4 +19,5 @@
     -o-box-shadow: 0 0 5px #9a9a9a;
     box-shadow: 0 0 5px #9a9a9a;
     z-index: 10;
+    position: relative;
 }

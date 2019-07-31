@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="common.blocks/menu/menu__link.css">
     <link rel="stylesheet" href="common.blocks/page-section/page-section.css">
     <link rel="stylesheet" href="common.blocks/page-section/_style/page-section_style_dark.css">
+    <link rel="stylesheet" href="common.blocks/page-section/_style/page-section_style_light.css">
     <link rel="stylesheet" href="common.blocks/divider/divider.css">
     <link rel="stylesheet" href="common.blocks/divider/_color/divider_color_white.css">
     <link rel="stylesheet" href="common.blocks/button/button.css">
     <link rel="stylesheet" href="common.blocks/button/_size/button_size_small.css">
     <link rel="stylesheet" href="common.blocks/button/_style/button_style_outline.css">
     <link rel="stylesheet" href="common.blocks/button/_style/button_style_form.css">
+    <link rel="stylesheet" href="common.blocks/button/_style/button_style_bright.css">
     <link rel="stylesheet" href="common.blocks/heading/heading.css">
     <link rel="stylesheet" href="common.blocks/heading/_style/heading_style_light.css">
     <link rel="stylesheet" href="common.blocks/header/header__description.css">
@@ -29,6 +31,7 @@
     <link rel="stylesheet" href="common.blocks/text-input/text-input.css">
     <link rel="stylesheet" href="common.blocks/subheading/subheading.css">
     <link rel="stylesheet" href="common.blocks/subheading/_style/subheading_style_dark.css">
+    <link rel="stylesheet" href="common.blocks/subheading/_style/subheading_style_night.css">
     <link rel="stylesheet" href="common.blocks/social-media-bar/social-media-bar.css">
     <link rel="stylesheet" href="common.blocks/social-media-bar/social-media-bar__subheading.css">
     <link rel="stylesheet" href="common.blocks/text/text.css">
@@ -43,13 +46,19 @@
     <link rel="stylesheet" href="common.blocks/social-media-icon/_name/social-media-icon_name_rss.css">
     <link rel="stylesheet" href="common.blocks/social-media-container/social-media-container.css">
     <link rel="stylesheet" href="common.blocks/social-media-description/social-media-description.css">
+    <link rel="stylesheet" href="common.blocks/tab/tab.css">
+    <link rel="stylesheet" href="common.blocks/tab/tab_selected.css">
+    <link rel="stylesheet" href="common.blocks/feature/feature.css">
+    <link rel="stylesheet" href="common.blocks/feature/feature__description.css">
+    <link rel="stylesheet" href="common.blocks/feature/feature__subheading.css">
+    <link rel="stylesheet" href="common.blocks/feature/feature__text.css">
 </head>
 <body>
 <!-- Navigation -->
 <nav class="nav">
     <a href="#"><img class="logo logo_size_small" src="image/logo.png" alt="AXIT logo"></a>
     <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Features</a></li>
+        <li class="menu__item"><a class="menu__link" href="#features">Features</a></li>
         <li class="menu__item"><a class="menu__link" href="#">About</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Pricing</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Reviews</a></li>
@@ -90,6 +99,26 @@
         <a class="social-media-icon social-media-icon_size_big social-media-icon_name_hz" href="http://www.hz.com"></a>
         <a class="social-media-icon social-media-icon_size_big social-media-icon_name_rss" href="#"></a>
     </div>
+</div>
+
+<!-- Feature 1 -->
+<div class="feature page-section page-section_style_light" id="features">
+    <div>
+        <div class="tab tab_selected">TAB 1</div>
+        <div class="tab">TAB 2</div>
+        <div class="tab">TAB 3</div>
+    </div>
+    <div class="feature__description">
+        <h2 class="subheading subheading_style_night feature__subheading">Tabs with transitioning effect</h2>
+        <p class="text feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+            penatibus et magnis dis parturient montes.</p>
+        <p class="text feature__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet.</p>
+        <button class="button button_size_small button_style_bright">Download</button>
+    </div>
+    <img src="image/city.png" alt="city">
 </div>
 </body>
 </html>
