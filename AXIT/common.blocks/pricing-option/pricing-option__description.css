@@ -1,0 +1,13 @@
+.pricing-option__description {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f5f5f5;
+    font: 14px OpenSans, Arial, sans-serif;
+    text-transform: uppercase;
+    background: #fff;
+    color: #8b8b8b;
+}
+
+.pricing-option__description:last-child {
+    border-bottom: none;
+}
