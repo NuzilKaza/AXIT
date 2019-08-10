@@ -1,0 +1,8 @@
+.review__author {
+    display: flex;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    padding: 25px 15px 0;
+}

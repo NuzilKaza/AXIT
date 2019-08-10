@@ -1,0 +1,18 @@
+.review__quote {
+    position: relative;
+    padding: 25px 10px;
+    font: italic 14px "Myriad Pro", Arial, sans-serif;
+    background: #f5f5f5;
+    color: #8b8b8b;
+}
+
+.review__quote::after {
+    position: absolute;
+    left: 35px;
+    top: 100%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #f5f5f5;
+    border-bottom: none;
+    content: "";
+}
