@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="common.blocks/button/button.css">
     <link rel="stylesheet" href="common.blocks/button/_size/button_size_small.css">
     <link rel="stylesheet" href="common.blocks/button/_size/button_size_medium.css">
+    <link rel="stylesheet" href="common.blocks/button/_size/button_size_big.css">
     <link rel="stylesheet" href="common.blocks/button/_style/button_style_outline.css">
     <link rel="stylesheet" href="common.blocks/button/_style/button_style_form.css">
     <link rel="stylesheet" href="common.blocks/button/_style/button_style_bright.css">
@@ -85,6 +86,10 @@
     <link rel="stylesheet" href="common.blocks/review/review__quote.css">
     <link rel="stylesheet" href="common.blocks/review/review__author.css">
     <link rel="stylesheet" href="common.blocks/review/review__photo.css">
+    <link rel="stylesheet" href="common.blocks/contact-form/contact-form__cols.css">
+    <link rel="stylesheet" href="common.blocks/contact-form/contact-form__text-input-container.css">
+    <link rel="stylesheet" href="common.blocks/contact-form/contact-form__text-input.css">
+    <link rel="stylesheet" href="common.blocks/contact-form/contact-form__textarea.css">
 </head>
 <body>
 <!-- Navigation -->
@@ -351,5 +356,21 @@
     <p class="text text_style_light">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
     <button class="button button_style_outline button_size_medium">Download</button>
 </div>
+
+<!-- Contact form -->
+<form class="page-section page-section_text-align_center">
+    <h1 class="heading heading_style_dark">Contact us</h1>
+    <div class="divider divider_style_bright divider_margin_small divider_center"></div>
+    <p class="text text_style_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="contact-form__cols">
+        <div class="contact-form__text-input-container">
+            <input type="text" class="text-input contact-form__text-input" placeholder="Name" required>
+            <input type="email" class="text-input contact-form__text-input" placeholder="Email" required>
+            <input type="text" class="text-input contact-form__text-input" placeholder="Subject" required>
+        </div>
+        <textarea class="text-input contact-form__textarea" placeholder="Message" required></textarea>
+    </div>
+    <input type="submit" class="button button_style_bright button_size_big" value="Send Message">
+</form>
 </body>
 </html>
