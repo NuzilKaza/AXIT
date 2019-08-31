@@ -7,8 +7,8 @@
     align-items: center;
     -webkit-align-items: center;
 
-    min-width: 1024px;
-    padding-left: 10%;
-    padding-right: 10%;
+    position: relative;
+    /*padding-left: 10%;
+    padding-right: 10%;*/
     background: #000;
 }

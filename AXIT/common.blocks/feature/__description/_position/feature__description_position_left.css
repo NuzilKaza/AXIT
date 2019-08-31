@@ -1,3 +1,10 @@
 .feature__description_position_left {
     margin-right: 18%;
 }
+
+@media screen and (max-width: 960px) {
+    .feature__description_position_left {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+}

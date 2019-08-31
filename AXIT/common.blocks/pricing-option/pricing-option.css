@@ -1,3 +1,13 @@
 .pricing-option {
     width: 30%;
 }
+
+@media screen and (max-width: 960px) {
+    .pricing-option {
+        width: 100%;
+    }
+
+    .pricing-option:nth-child(n + 2) {
+        margin-top: 40px;
+    }
+}

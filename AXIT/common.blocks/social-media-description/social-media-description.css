@@ -1,3 +1,10 @@
 .social-media-description {
     width: 35%;
 }
+
+@media screen and (max-width: 960px) {
+    .social-media-description {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

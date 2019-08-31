@@ -1,0 +1,11 @@
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .burger {
+        display: block;
+        margin: 20px 10% 20px 0;
+        cursor: pointer;
+    }
+}

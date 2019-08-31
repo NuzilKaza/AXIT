@@ -6,3 +6,11 @@
 .menu__item:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 960px) {
+    .menu__item {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+}

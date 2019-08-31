@@ -1,3 +1,9 @@
 .social-media-container_size_big {
     width: 55%;
 }
+
+@media screen and  (max-width: 960px){
+    .social-media-container_size_big {
+        width: 100%;
+    }
+}

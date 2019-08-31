@@ -1,0 +1,6 @@
+.burger_changed .burger__strip_position_top {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    -moz-transform: rotate(-45deg) translate(-6px, 6px);
+    -o-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}

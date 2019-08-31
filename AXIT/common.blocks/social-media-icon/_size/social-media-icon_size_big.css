@@ -2,3 +2,15 @@
     width: 53px;
     height: 45px;
 }
+
+@media screen and (max-width: 640px) {
+    .social-media-icon_size_big {
+        width: 30px;
+        height: 25px;
+
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+}

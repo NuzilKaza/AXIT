@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Axit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="common.blocks/nav/nav.css">
+    <link rel="stylesheet" href="common.blocks/nav/nav__logo.css">
+    <link rel="stylesheet" href="common.blocks/burger/burger.css">
     <link rel="stylesheet" href="common.blocks/logo/logo.css">
     <link rel="stylesheet" href="common.blocks/logo/_size/logo_size_small.css">
     <link rel="stylesheet" href="common.blocks/logo/_size/logo_size_big.css">
+    <link rel="stylesheet" href="common.blocks/menu/menu.css">
     <link rel="stylesheet" href="common.blocks/menu/menu__item.css">
     <link rel="stylesheet" href="common.blocks/menu/menu__link.css">
+    <link rel="stylesheet" href="common.blocks/menu/menu_visible.css">
     <link rel="stylesheet" href="common.blocks/page-section/page-section.css">
     <link rel="stylesheet" href="common.blocks/page-section/_style/page-section_style_dark.css">
     <link rel="stylesheet" href="common.blocks/page-section/_style/page-section_style_light.css">
@@ -30,7 +35,7 @@
     <link rel="stylesheet" href="common.blocks/heading/heading.css">
     <link rel="stylesheet" href="common.blocks/heading/_style/heading_style_light.css">
     <link rel="stylesheet" href="common.blocks/heading/_style/heading_style_dark.css">
-    <link rel="stylesheet" href="common.blocks/header/header__description.css">
+    <link rel="stylesheet" href="common.blocks/header/header.css">
     <link rel="stylesheet" href="common.blocks/header/header__text.css">
     <link rel="stylesheet" href="common.blocks/login-form/login-form.css">
     <link rel="stylesheet" href="common.blocks/login-form/login-form__subheading.css">
@@ -94,11 +99,16 @@
     <link rel="stylesheet" href="common.blocks/contact-form/contact-form__text-input.css">
     <link rel="stylesheet" href="common.blocks/contact-form/contact-form__textarea.css">
     <link rel="stylesheet" href="common.blocks/footer/footer.css">
+    <link rel="stylesheet" href="common.blocks/burger/__strip/burger__strip.css">
+    <link rel="stylesheet" href="common.blocks/burger/__strip/_position/burger__strip_position_bottom.css">
+    <link rel="stylesheet" href="common.blocks/burger/__strip/_position/burger__strip_position_middle.css">
+    <link rel="stylesheet" href="common.blocks/burger/__strip/_position/burger__strip_position_top.css">
+
 </head>
 <body>
 <!-- Navigation -->
 <header class="nav">
-    <a href="#"><img class="logo logo_size_small" src="image/logo.png" alt="AXIT logo"></a>
+    <a href="#" class="nav__logo"><img class="logo logo_size_small" src="image/logo.png" alt="AXIT logo"></a>
     <nav class="menu">
         <ul>
             <li class="menu__item"><a class="menu__link" href="#features">Features</a></li>
@@ -108,10 +118,23 @@
             <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
         </ul>
     </nav>
+    <div class="burger">
+        <div class="burger__strip burger__strip_position_top"></div>
+        <div class="burger__strip burger__strip_position_middle"></div>
+        <div class="burger__strip burger__strip_position_bottom"></div>
+    </div>
 </header>
 
 <!-- Header -->
 <section class="header page-section page-section_style_dark">
+    <article>
+        <img class="logo logo_size_big" src="image/logo.png" alt="AXIT logo">
+        <h1 class="heading heading_style_light">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+        <div class="divider divider_style_light divider_margin_big"></div>
+        <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+            laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        <button class="button button_size_small button_style_outline">Download</button>
+    </article>
     <form class="login-form">
         <div class="subheading subheading_style_dark login-form__subheading">Try your <span
                 class="login-form__selection">free</span> trial today
@@ -121,14 +144,6 @@
         <input type="password" class="text-input login-form__text-input" placeholder="Password">
         <input type="submit" class="button button_style_form" value="Get Started">
     </form>
-    <article class="header__description">
-        <img class="logo logo_size_big" src="image/logo.png" alt="AXIT logo">
-        <h1 class="heading heading_style_light">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-        <div class="divider divider_style_light divider_margin_big"></div>
-        <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-            laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-        <button class="button button_size_small button_style_outline">Download</button>
-    </article>
 </section>
 
 <!-- Social Media -->
@@ -170,7 +185,7 @@
             bibendum laoreet.</p>
         <button class="button button_size_small button_style_bright">Download</button>
     </article>
-    <figure><img src="image/city.png" alt="city"></figure>
+    <figure><img class src="image/city.png" alt="city"></figure>
 </section>
 
 <!-- Feature 2 -->
@@ -397,5 +412,7 @@
     </div>
     <p class="text text_style_dark">&copy 2015 Axure Themes</p>
 </footer>
+
+<script src="common.blocks/burger/burger.js"></script>
 </body>
 </html>

@@ -1,14 +1,15 @@
-.advantages-container {
+.header {
     display: flex;
 
     -webkit-justify-content: space-between;
     justify-content: space-between;
 
-    margin-top: 80px;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 960px) {
-    .advantages-container {
+    .header {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;

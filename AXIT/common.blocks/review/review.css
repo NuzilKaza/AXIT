@@ -2,3 +2,15 @@
     width: 25%;
     text-align: left;
 }
+
+@media screen and (max-width: 960px) {
+    @media screen and (max-width: 960px) {
+        .review {
+            width: 100%;
+        }
+
+        .review:nth-child(n + 2) {
+            margin-top: 40px;
+        }
+    }
+}

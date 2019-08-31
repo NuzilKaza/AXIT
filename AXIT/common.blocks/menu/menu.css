@@ -1,0 +1,13 @@
+.menu {
+    background: #000;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 960px) {
+    .menu {
+        position: absolute;
+        top: 75px;
+        width: 100%;
+        display: none;
+    }
+}

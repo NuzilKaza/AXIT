@@ -32,3 +32,32 @@
 .tab:hover {
     background: #000;
 }
+
+@media screen and (max-width: 960px) {
+    .tab {
+        display: inline-flex;
+        width: 80px;
+        height: 80px;
+        border: none;
+        border-right: 1px solid #c7c7c7;
+        margin-bottom: 30px;
+    }
+
+    .tab:first-child {
+        -webkit-border-radius: 5px 0 0 5px;
+        -moz-border-radius: 5px 0 0 5px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .tab:last-child {
+        border-right: none;
+
+        -webkit-border-radius: 0 5px 5px 0;
+        -moz-border-radius: 0 5px 5px 0;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .tab:nth-child(2) {
+        margin: 0 -5px;
+    }
+}

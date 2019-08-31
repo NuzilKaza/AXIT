@@ -4,3 +4,11 @@
     -webkit-align-items: center;
     align-items: center;
 }
+
+@media screen and (max-width: 960px) {
+    .feature {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

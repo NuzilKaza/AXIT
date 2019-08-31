@@ -1,3 +1,9 @@
 .contact-form__text-input-container {
-    width: 45%;
+    width: 47%;
+}
+
+@media screen and (max-width: 960px) {
+    .contact-form__text-input-container {
+        width: 100%;
+    }
 }

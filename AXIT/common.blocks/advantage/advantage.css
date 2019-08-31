@@ -1,3 +1,13 @@
 .advantage {
     width: 30%;
 }
+
+@media screen and (max-width: 960px) {
+    .advantage {
+        width: 100%;
+    }
+
+    .advantage:nth-child(n + 2) {
+        margin-top: 40px;
+    }
+}

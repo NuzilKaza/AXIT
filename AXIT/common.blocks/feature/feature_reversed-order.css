@@ -1,5 +1,7 @@
-.feature_reversed-order {
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
+@media screen and (min-width: 961px) {
+    .feature_reversed-order {
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
 }
