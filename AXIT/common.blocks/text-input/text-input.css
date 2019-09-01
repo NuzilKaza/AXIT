@@ -7,7 +7,7 @@
     border: none;
     border-bottom: 1px solid #d6d6d6;
     color: #333;
-    font: 14px OpenSans, Arial, SansSerif;
+    font: 14px 'Open Sans', Arial, sans-serif;
 }
 
 .text-input:last-of-type {

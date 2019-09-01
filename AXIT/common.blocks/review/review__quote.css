@@ -1,7 +1,7 @@
 .review__quote {
     position: relative;
     padding: 25px 10px;
-    font: italic 14px "Myriad Pro", Arial, sans-serif;
+    font: italic 14px/1.5 'Open Sans', Arial, sans-serif;
     background: #f5f5f5;
     color: #8b8b8b;
 }
